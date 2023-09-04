@@ -1,0 +1,22 @@
+{
+	"name": "my-first-gutenberg-app",
+	"version": "1.1.0",
+	"description": "ES Next Recipe Card",
+	"main": "index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"start": "wp-scripts start"
+	},
+	"keywords": [
+		"WordPress",
+		"block"
+	],
+	"author": "Chouinard",
+	"license": "GPL-2.0-or-later",
+	"devDependencies": {
+		"@wordpress/scripts": "^18.0.1"
+	}
+}
